@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Financiera.Dominio
+namespace parcial.Dominio
 {
     public class Pedido
     {

@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\pea2.Dominio\pea2.Dominio.csproj" />
+    <ProjectReference Include="..\pea2.Dominio\Parcial.Dominio.csproj" />
     <ProjectReference Include="..\Pea2.logic\Pea2.logic.csproj" />
   </ItemGroup>
 

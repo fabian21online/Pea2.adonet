@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Financiera.Dominio
+namespace parcial.Dominio
 {
     public class DetallePedido
     {
@@ -9,5 +9,12 @@ namespace Financiera.Dominio
         public int cantidad { get; set; }
         public decimal Precio { get; set; }
 
+    }
+}
+
+namespace Parcial.Dominio
+{
+    public class Categoria
+    {
     }
 }

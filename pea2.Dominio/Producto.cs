@@ -1,4 +1,4 @@
-﻿namespace Financiera.Dominio
+﻿namespace parcial.Dominio
 {
     public class Producto
     {

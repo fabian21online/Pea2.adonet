@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace pea2.App.win
 {
     partial class FmrEditCliente
@@ -143,10 +145,16 @@ namespace pea2.App.win
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbdoc);
             this.Name = "FmrEditCliente";
-            this.Text = "FmrEditCliente";
+            this.Text = "cliente";
+            this.Load += new System.EventHandler(this.iniciarformulario);
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

@@ -37,5 +37,10 @@ namespace pea2.App.win
             }
 
         }
+
+        private void nuevoregistro(object sender, EventArgs e)
+        {
+            var frm = new FmrEditCliente();
+        }
     }
 }

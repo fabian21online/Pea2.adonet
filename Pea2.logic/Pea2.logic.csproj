@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Pea2.Data\Pea2.Data.csproj" />
-    <ProjectReference Include="..\pea2.Dominio\pea2.Dominio.csproj" />
+    <ProjectReference Include="..\Parcial.Dominio\Parcial.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

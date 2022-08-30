@@ -126,6 +126,7 @@ namespace pea2.App.win
             this.tsbnuevo.Name = "tsbnuevo";
             this.tsbnuevo.Size = new System.Drawing.Size(76, 24);
             this.tsbnuevo.Text = "Nuevo";
+            this.tsbnuevo.Click += new System.EventHandler(this.nuevoregistro);
             // 
             // tsbeditar
             // 

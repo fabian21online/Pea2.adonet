@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Parcial.Dominio\Parcial.Dominio.csproj" />
+    <ProjectReference Include="..\Parcial.Dominio\Parcial.Dominio.csproj" />
+    <ProjectReference Include="..\pea2.Dominio\Parcial.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>

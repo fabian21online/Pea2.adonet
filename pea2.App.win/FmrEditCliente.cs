@@ -10,14 +10,16 @@ namespace pea2.App.win
 {
     public partial class FmrEditCliente : Form
     {
-        public FmrEditCliente()
+        Cliente cliente;
+        public FmrEditCliente(cliente cliente)  
         {
             InitializeComponent();
+            this.cliente = cliente;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void iniciarformulario(object sender, EventArgs e)
         {
-
+  
         }
     }
 }
