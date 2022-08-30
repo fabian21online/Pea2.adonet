@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pea2.Data\Pea2.Data.csproj" />
+    <ProjectReference Include="..\pea2.Dominio\pea2.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

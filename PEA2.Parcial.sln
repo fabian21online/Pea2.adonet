@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "logic", "logic", "{65C93642-DDD1-463C-8728-2F116A7E9C59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prensentacion", "prensentacion", "{D31C7DF1-F659-4A30-B217-CAA966535923}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data layer", "data layer", "{FBCC334A-51C8-4C25-8303-D77A9A9872D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pea2.Dominio", "pea2.Dominio\pea2.Dominio.csproj", "{278DA04A-BEE3-4A7D-82D8-0E02C9F0BA30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pea2.App.win", "pea2.App.win\pea2.App.win.csproj", "{07E72A21-46E5-498D-BCFA-1C5AC1D28697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pea2.Data", "Pea2.Data\Pea2.Data.csproj", "{5870DC99-19C6-4A32-A917-95C5F3404CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pea2.logic", "Pea2.logic\Pea2.logic.csproj", "{81197458-A245-4340-965C-674B3AD0E018}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{278DA04A-BEE3-4A7D-82D8-0E02C9F0BA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278DA04A-BEE3-4A7D-82D8-0E02C9F0BA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278DA04A-BEE3-4A7D-82D8-0E02C9F0BA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278DA04A-BEE3-4A7D-82D8-0E02C9F0BA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E72A21-46E5-498D-BCFA-1C5AC1D28697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E72A21-46E5-498D-BCFA-1C5AC1D28697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E72A21-46E5-498D-BCFA-1C5AC1D28697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E72A21-46E5-498D-BCFA-1C5AC1D28697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5870DC99-19C6-4A32-A917-95C5F3404CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5870DC99-19C6-4A32-A917-95C5F3404CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5870DC99-19C6-4A32-A917-95C5F3404CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5870DC99-19C6-4A32-A917-95C5F3404CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81197458-A245-4340-965C-674B3AD0E018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81197458-A245-4340-965C-674B3AD0E018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81197458-A245-4340-965C-674B3AD0E018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81197458-A245-4340-965C-674B3AD0E018}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{278DA04A-BEE3-4A7D-82D8-0E02C9F0BA30} = {65C93642-DDD1-463C-8728-2F116A7E9C59}
+		{07E72A21-46E5-498D-BCFA-1C5AC1D28697} = {D31C7DF1-F659-4A30-B217-CAA966535923}
+		{5870DC99-19C6-4A32-A917-95C5F3404CDA} = {FBCC334A-51C8-4C25-8303-D77A9A9872D5}
+		{81197458-A245-4340-965C-674B3AD0E018} = {65C93642-DDD1-463C-8728-2F116A7E9C59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {039A5908-C12B-4E8E-8A59-0BB285E9F095}
+	EndGlobalSection
+EndGlobal
